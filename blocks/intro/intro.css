@@ -1,0 +1,13 @@
+.intro {
+	color: white;
+	max-width: 984px;
+	margin: 0 auto;
+	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-template-rows: repeat(3, auto);
+  	grid-template-areas:
+  	"title title ."
+  	"text text ."
+  	"list . ."
+  	
+}

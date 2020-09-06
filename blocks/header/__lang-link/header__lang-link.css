@@ -1,0 +1,16 @@
+.header__lang-link {
+	display: flex;
+	justify-content: flex-end;
+	text-decoration-color: white;
+	color: white;
+	grid-column-start: 3; 
+	grid-row-start: 1; 
+	text-decoration: none;
+}
+
+.header__lang-link:nth-child(2n) {
+	position: relative;
+	right: 47px;
+	text-decoration: underline;
+
+}

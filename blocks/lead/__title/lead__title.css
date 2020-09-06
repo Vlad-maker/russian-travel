@@ -1,0 +1,9 @@
+.lead__title{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-size: 96px;
+	max-width: 50%;
+	margin: 0 auto 19px;
+	}

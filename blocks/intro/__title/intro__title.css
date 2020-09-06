@@ -1,0 +1,6 @@
+.intro__title {
+	grid-area: title;
+	font-size: 54px;
+	line-height: 58px;
+	margin: 99px 0 40px;
+}

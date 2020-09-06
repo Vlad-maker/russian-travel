@@ -1,0 +1,11 @@
+.place {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 40px 460px;
+  grid-template-rows: 152px 48px 460px;
+  grid-template-areas:
+  "title . website"
+  ". . ."
+  "image . paragraph";
+
+}
