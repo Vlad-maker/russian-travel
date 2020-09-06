@@ -1,5 +1,8 @@
 .place__website__link {
-	color: white;
-	
+	color: #fff;
+}
 
+.place__website__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.8s linear 0.2s;
 }

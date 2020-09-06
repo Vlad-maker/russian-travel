@@ -1,2 +1,14 @@
 .cover__overlay {
- }
+	position: absolute;
+	min-width: 61vw;
+	min-height: 65vh; 
+	background-color: rgba(16, 17, 18, 0.3);
+}
+
+
+
+.cover__overlay:hover {
+  background-color: rgba(16, 17, 18, 0.8);
+  transition: opacity 0.3s;
+  
+}
