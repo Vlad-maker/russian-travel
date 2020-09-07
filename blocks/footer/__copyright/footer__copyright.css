@@ -1,4 +1,23 @@
 .footer__copyright {
-	
 	margin-left: 26vw;
+	position: relative;
+	bottom: 1vh;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__copyright  {
+    left: 8vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright  {
+    position: relative;
+    left: 3vw;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright  {
+    position: relative;
+    left: 0vw;
+    margin-left: 12vw;
 }

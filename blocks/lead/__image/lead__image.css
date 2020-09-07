@@ -3,3 +3,13 @@
 	color: white;
 	
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-width: 92%
+  }
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 100%
+  }

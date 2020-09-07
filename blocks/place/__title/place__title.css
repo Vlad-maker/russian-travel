@@ -1,8 +1,17 @@
 .place__title {
 	grid-area: title;
 	font-size: 72px;
+	line-height: 76px;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+  	grid-template-columns: 340px 28px 340px;
+  	grid-template-rows: 92px 48px 460px;
+  	font-size: 42px;
+	line-height: 46px;
+  }

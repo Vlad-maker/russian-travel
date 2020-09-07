@@ -2,6 +2,18 @@
 	color: white;
 	margin: 8px auto 0; 
 	position: relative;
-	right: 34%;
+	right: 33%;
+	text-rendering: auto;
+	letter-spacing: 1px;
 	
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    right: 36%;
+  }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    right: 33%;
+  }

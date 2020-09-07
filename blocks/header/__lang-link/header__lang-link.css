@@ -6,6 +6,7 @@
 	grid-column-start: 3; 
 	grid-row-start: 1; 
 	text-decoration: none;
+	padding-top: 25px;
 }
 
 .header__lang-link:nth-child(2n) {

@@ -9,3 +9,9 @@
   "image . paragraph";
 
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+  	grid-template-columns: 340px 28px 340px;
+  	grid-template-rows: 46px 48px 460px;
+  }
