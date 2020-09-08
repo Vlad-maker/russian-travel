@@ -28,3 +28,9 @@
     max-width: 768px;
     min-height: 480px;
   }
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    max-width: 320px;
+    min-height: 180px;
+  }
