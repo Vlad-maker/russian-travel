@@ -17,3 +17,8 @@
   .lead__caption {
     right: 33%;
   }
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    right: 13%;
+  }

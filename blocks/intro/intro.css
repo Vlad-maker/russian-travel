@@ -29,3 +29,11 @@
     "text text text"
     "list list ."
   }
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-areas:
+    "title title title"
+    "text text text"
+    "list list list"
+  }
+

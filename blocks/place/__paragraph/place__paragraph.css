@@ -19,7 +19,16 @@
    	gap: 2.5vh;
   }
 
-	
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+  	padding-top: 32px;
+  }	
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+  	max-width: 92%;
+  	margin: 0 auto 0;
+  }	
 
 
 

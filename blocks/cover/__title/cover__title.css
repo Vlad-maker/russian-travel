@@ -3,18 +3,21 @@
 	font-size: 72px;
 	line-height: 76px;
 	font-weight: bolder;
-	max-width: 45%; 
+	max-width: 28%; 
 	text-align: center;
 	align-items: center;
-	top: 20vh;
+	top: 14vh;
+	left: 15.5vw;
 	color: #fff;
 	text-decoration: none;
+	justify-content: center;
 }
 
 @media screen and (max-width: 1280px) {
   .cover__title  {
-    max-width: 45%;
-    
+    max-width: 40%;
+    top: 13vh;
+    left: 25vw;
   }
 
 @media screen and (max-width: 1024px) {
@@ -25,5 +28,6 @@
 @media screen and (max-width: 768px) {
   .cover__title  {
     max-width: 70%;
-    top: 14vh;
+    top: 6vh;
+    left: 16vw;
   }
