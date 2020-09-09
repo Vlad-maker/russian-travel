@@ -1,18 +1,9 @@
 .header {
-	max-width: 1184px;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-  	grid-template-rows: 1 auto;
-  	padding-top: 28px;
-  	margin: 0 auto 49px;
+  display: flex;
+  flex-direction: row;
+  margin: 28px 48px 49px;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    margin: 28px 48px 48px;
-  }
-
-@media screen and (max-width: 320px) {
-  .header {
-    margin: 16px 16px 48px;
-  }
+.header > .header__lang-link:nth-child(2) {
+    margin-left: auto;
+}

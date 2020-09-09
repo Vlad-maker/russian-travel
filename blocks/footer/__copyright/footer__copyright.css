@@ -1,31 +1,5 @@
 .footer__copyright {
-	margin-left: 26vw;
-	position: relative;
-	bottom: 1vh;
-}
+  margin-top: 0;
+  margin-bottom: 0;
+	}
 
-@media screen and (max-width: 1280px) {
-  .footer__copyright  {
-    left: 8vw;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer__copyright  {
-    position: relative;
-    left: 3vw;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright  {
-    position: relative;
-    left: 0vw;
-    margin-left: 12vw;
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .footer__copyright  {
-    margin: 16px 0 ;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: normal;
-}

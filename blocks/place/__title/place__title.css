@@ -10,8 +10,6 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-  	grid-template-columns: 340px 28px 340px;
-  	grid-template-rows: 92px 48px 460px;
   	font-size: 42px;
 	line-height: 46px;
   }
@@ -20,7 +18,5 @@
   .place__title {
   	font-size: 32px;
 	line-height: 35px;
-	padding-left: 16px;
-	padding-bottom: 32px;
 
   }

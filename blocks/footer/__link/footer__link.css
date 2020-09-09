@@ -1,8 +1,7 @@
 .footer__link {
-	margin-top: 1vh;
-	margin-right: 1vw;
-	color: white;
+	color: #fff;
 	text-decoration: none;
+  margin-right: 18px;
 }
 
 .footer__link:hover {
@@ -10,27 +9,3 @@
   transition: opacity 0.1s linear 0s;
 }
 
-@media screen and (max-width: 1280px) {
-  .footer__link  {
-    position: relative;
-    right: 8vw;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer__link  {
-    position: relative;
-    right: 3vw;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__link  {
-    position: relative;
-    right: 0vw;
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .footer__link  {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 32px;
-}

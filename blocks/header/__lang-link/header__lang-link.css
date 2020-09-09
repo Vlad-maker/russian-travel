@@ -1,17 +1,13 @@
 .header__lang-link {
-	display: flex;
-	justify-content: flex-end;
-	text-decoration-color: white;
 	color: white;
-	grid-column-start: 3; 
-	grid-row-start: 1; 
 	text-decoration: none;
-	padding-top: 19px;
+	font-size: 24px;
+	line-height: 28px;
+	padding-top: 22px;
 }
 
 .header__lang-link:nth-child(2n) {
-	position: relative;
-	right: 47px;
 	text-decoration: underline;
+	padding-right: 18px;
 
 }

@@ -1,39 +1,13 @@
 .intro {
 	color: white;
-	max-width: 52%;
+	max-width: 77%;
 	margin: 0 auto;
 	display: grid;
   	grid-template-columns: repeat(3, 1fr);
   	grid-template-rows: repeat(3, auto);
   	grid-template-areas:
-  	"title title ."
+  	"title title title"
   	"text text ."
   	"list . ."
   	
 }
-
-@media screen and (max-width: 1280px) {
-  .intro {
-    max-width: 78%;
-  }
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    max-width: 92%
-  }
-
-@media screen and (max-width: 768px) {
-  .intro {
-    grid-template-areas:
-    "title title title"
-    "text text text"
-    "list list ."
-  }
-@media screen and (max-width: 768px) {
-  .intro {
-    grid-template-areas:
-    "title title title"
-    "text text text"
-    "list list list"
-  }
-
