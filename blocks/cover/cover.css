@@ -3,7 +3,7 @@
     object-fit: cover;
     background-size: cover;
     color: #ffffff;
-    width: 92.5%;
+    max-width: 92.5%;
     position: relative;
     display: flex;
     margin: 92px auto;
@@ -25,4 +25,17 @@
 .cover:hover::before {
     opacity: 0.8;
 }
-	}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  .cover  {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .cover  {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+}
+

@@ -3,13 +3,89 @@
 	font-size: 72px;
 	line-height: 76px;
 	font-style:  normal;
-  	font-weight: 900;
-	max-width: 56%; 
+  font-weight: 900;
+	max-width: 45%; 
 	text-align: center;
   align-items: center;
 	color: #fff;
 	text-decoration: none;
 	justify-content: center;
-  margin: 22% auto 3.2%;
+  	margin: 22% auto 3.2%;
 }
 
+
+@media screen and (min-width: 1149px) and (max-width: 1215px) {
+  .cover__title  {
+    max-width: 47%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1148px) {
+  .cover__title  {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 919px) and (max-width: 1023px) {
+  .cover__title  {
+    max-width: 55%;
+    margin: 21% auto 3%;
+  }
+}
+
+@media screen and (min-width: 884px) and (max-width: 918px) {
+  .cover__title  {
+    max-width: 60%;
+    margin: 21% auto 3%;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 883px) {
+  .cover__title  {
+    max-width: 65%;
+    margin: 21% auto 3%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+  .cover__title  {
+    max-width: 70%;
+    margin: 20% auto 3%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 40%;
+    margin: 19% auto 3%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 599px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 50%;
+    margin: 17% auto 3%;
+  }
+}
+
+@media screen and (min-width: 354px) and (max-width: 425px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 60%;
+    margin: 15% auto 3%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 353px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 72%;
+    margin: 13% auto 3%;
+  }
+}

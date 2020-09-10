@@ -8,15 +8,19 @@
     "image paragraph";
   column-gap: 40px;
   row-gap: 48px;
+}
 
-}
- /* .place:nth-child(2) {
-    grid-template-rows: 76px 48px 460px;
-}
-  .place:nth-child(3) {
-    grid-template-rows: 76px 48px 460px;
-}
-  .place:nth-child(5) {
-    grid-template-rows: 76px 48px 460px;
-}
-*/
+@media screen and (min-width: 320px) and (max-width: 570px) {
+  .place {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "title"
+    "image" 
+    "paragraph";
+    row-gap: 32px;
+    margin-bottom: 48px;
+  }
+ }
+
+
