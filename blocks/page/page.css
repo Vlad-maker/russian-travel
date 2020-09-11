@@ -1,16 +1,16 @@
-/*div,h1, h2, h3, h4, p ,li, ul, img, section, article, main, header { 
+div,h1, h2, h3, h4, p ,li, ul, img, section, article, main, header { 
     outline-width: 1px; 
     outline-style: solid; 
     outline-color: red; 
-} */
+} 
 .page {
 	background-color: #2A2C2F;
 	font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
 	color: #fff;
 	min-width: 320px;
-  max-width: 100vw;
-  margin: 0 auto;
+  max-width: 1280px;
+  margin: auto;
 
 }
 

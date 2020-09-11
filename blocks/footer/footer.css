@@ -12,8 +12,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 721px) {
   .footer  {
-    flex-direction: column;
+    flex-direction: column;   
   }
   .footer > .footer__copyright {
     margin-left: 0;
+  }
 }
