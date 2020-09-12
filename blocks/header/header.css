@@ -4,10 +4,6 @@
   margin: 28px 48px 48px;
 }
 
-.header > .header__lang-link:nth-child(2) {
-    margin-left: auto;
-}
-
 @media screen and (max-width: 768px) {
   .header  {
     margin: 28px 24px 48px;
