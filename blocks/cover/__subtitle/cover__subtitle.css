@@ -34,8 +34,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .cover__subtitle  {
-    font-size: 4.3vw;
-    line-height: 4.5vw;
-    max-width: 85%;
+    max-width: 95%;
+    font-size: 4.4vw;
+    line-height: 4.9vw;
   }
 }
